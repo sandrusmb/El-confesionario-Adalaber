@@ -10,29 +10,29 @@ Seguramente alguien te diga que para ser programadora tienes que tener paciencia
 
 ## ¿Cómo funciona el confesionario adalaber?
 
-1. Escribe tu confesión sobre cómo te hace sentir el aprendizaje de Javascript en tiempo récord bajo toneladas de presión y mala leche. Puede ser cualquier cosa, por ejemplo: "¿Por qué Javascript me odia si le dedico el 90% de mi vida?".
+1. Escribe tu confesión sobre cómo te hace sentir el aprendizaje de Javascript en tiempo récord bajo toneladas de presión y mala leche. Puede ser cualquier cosa, por ejemplo: "¿Por qué Javascript me odia si le dedico el 90% de mi vida?", "¿aprobaré alguna vez este módulo maldito?" o "¿seré yo gilipollas sin saberlo?".
 
 2. Haz click en el botón "Enviar frustración".
 
-3. Recibe un "súper-consejito" elaborado por una reconocida experta en lloreras, rechinar de dientes y funciones arrow (mentira).
+3. Recibe un "súper-consejito" basado en lo que te diría Javascript si en lugar de errores raros en la consola pudiera comunicarse contigo cara a cara con lenguaje humano. Vamos ¡una fantasía!
 
 ## Qué herramientas se han utilizado en la elaboración de este confesionario
 
-Por supuesto ¡Javascript! Porque puede ser mi peor enemigo pero con: cariño, dedicación, buen humor, mucho Google, mucho Youtube, café, azúcar y estudio... también (espero) mi mejor aliado.
+Por supuesto ¡Javascript! Porque puede ser nuestro peor enemigo pero con: cariño, dedicación, buen humor, mucho Google, mucho Youtube, café, azúcar y estudio... también (espero) nuestro mejor aliado.
 
-Además, no pueden faltar HTML, CSS, SASS, Git y Github, todo ello bajo el marco de trabajo Scrum. ¡Que no falte de nada!
+Además, no pueden faltar HTML, CSS, SASS, Git, Gulp y Github, todo ello bajo el marco de trabajo Scrum. ¡Que no falte de nada!
 
 ## De dónde viene la idea
 
-De los 19 días (que saben a las 500 noches) en los que no he parado de llorar sin entender nada sobre funciones, eventos, objetos, arrays, índices y for's.
+De los 19 días (que saben a 500 noches) en los que no he parado de llorar sin entender nada sobre funciones, eventos, objetos, arrays, índices y for's.
 
 También de todos esos momentos en los que me he querido meter debajo de una piedra y no salir nunca mientras todo el mundo me decía "no te preocupes, harás click mágicamente" y ¡NO PASABA!
 
-Y obviamente, por el gusto de aprender a programar con un proyecto personal lleno de libertad y mala baba, sin censura, ni tiempos de entrega, ni enunciados raros de ejercicios imposibles.
+Y obviamente, por el gusto de aprender a programar con un proyecto personal lleno de libertad, humor, mala baba, sin censura, ni tiempos de entrega, ni enunciados raros de ejercicios imposibles.
 
 ## Compartir es vivir
 
-Si te gusta el proyecto y quieres contribuir, tus issues y pull requests son más que bienvenidas.
+Si te gusta el proyecto y quieres contribuir, tus issues y pull requests son más que bienvenidos.
 
 Ahora solo queda ¡aprender a programarlo!
 
