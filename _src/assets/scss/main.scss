@@ -1,0 +1,67 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.container {
+  //border: 3px solid blue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  //background-image: url(../images/courtney-chestnut-Vt6XESvPWUw-unsplash.jpg);
+  background-size: cover;
+  background-image: url(../images/jacalyn-beales-CA9V2xrz6J0-unsplash.jpg);
+  //background-position-y: 45%;
+  //background: #fabada;
+
+  &__title {
+    font-family: "Dosis", sans-serif;
+    font-size: 18px;
+    margin: 30px 30px 30px 30px;
+    color: white;
+  }
+
+  &__form {
+    //border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+    &__input {
+      font-family: "Dosis", sans-serif;
+      font-size: 2em;
+      width: 250px;
+      margin-bottom: 30px;
+    }
+
+    &__button {
+      font-family: "Dosis", sans-serif;
+      font-size: 1em;
+      font-weight: bold;
+      background: greenyellow;
+      border-radius: 10px;
+      color: coral;
+      width: 150px;
+      height: 50px;
+      //background-image: linear-gradient(to bottom, #eb94d0, #2079b0);
+      box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+  }
+
+  &__section {
+    //border: 1px solid yellow;
+    &__text {
+      font-family: "Montserrat Subrayada", sans-serif;
+      margin: 0px;
+      font-size: 1.5em;
+      margin: 30px;
+      color: greenyellow;
+    }
+  }
+}
