@@ -55,7 +55,7 @@ body {
   }
 
   &__section {
-    //border: 1px solid yellow;
+    border: 1px solid yellow;
     &__text {
       font-family: "Montserrat Subrayada", sans-serif;
       margin: 0px;
@@ -64,4 +64,8 @@ body {
       color: greenyellow;
     }
   }
+}
+
+.js-text {
+  display: none;
 }
