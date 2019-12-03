@@ -35,3 +35,7 @@ Y obviamente, por el gusto de aprender a programar con un proyecto personal llen
 Si te gusta el proyecto y quieres contribuir, tus issues y pull requests son más que bienvenidas.
 
 Ahora solo queda ¡aprender a programarlo!
+
+## Fuentes de información
+
+Learn JavaScript by building a Random Quote Generator >> https://freshman.tech/random-quote-machine/
