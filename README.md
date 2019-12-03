@@ -1,124 +1,37 @@
-![Adalab](_src/assets/images/logo-adalab-80px.png)
+https://sandrusmb.github.io/El-confesionario-Adalaber/
 
-# Adalab web starter kit
+# Bienvenida al confesionario adalaber
 
-Ahoy! Esta es nuestro Starter Kit en node/gulp para este primer contacto con el desarrollo web
-Incluye SCSS, un sistema de plantillas HTMl y un web server.
+Si estás aprendiendo Javascript (como yo) y no se te da bien (como a mí) ¡bienvenida! Has llegado a un lugar seguro donde poder descargar tu frustración.
 
-## Guía de inicio rápido
+## Por qué es necesario este confesionario
 
-Necesitarás instalar [Node.js](https://nodejs.org/) y [Gulp](https://gulpjs.com) para trabajar con este Starter Kit, luego:
+Seguramente alguien te diga que para ser programadora tienes que tener paciencia y aprender a gestionar el estrés. Hasta que lo logres, se te irán acumulando una buena cantidad de pensamientos negativos, sentimientos encontrados y sonoros cabreos que tendrás que liberar de alguna forma antes de tirar el ordenador por la ventana. Así que deja aquí todo lo que te preocupa (de js) y marcha en paz. #samanté.
 
-1. Descarga o clona el repositorio
-2. Instala las dependencias locales con `npm install`
-3. Arranca el kit con `gulp`
+## ¿Cómo funciona el confesionario adalaber?
 
-## Espera, ¿esto se hace siempre?
+1. Escribe tu confesión sobre cómo te hace sentir el aprendizaje de Javascript en tiempo récord bajo toneladas de presión y mala leche. Puede ser cualquier cosa, por ejemplo: "¿Por qué Javascript me odia si le dedico el 90% de mi vida?".
 
-> ### Solo una vez al principio en cada ordenador que utilicemos:
+2. Haz click en el botón "Enviar frustración".
 
-- Instalamos node
-- Instalamos el comando de gulp de forma global para poder usarlo desde cualquier carpeta usando `npm install --global gulp-cli`
+3. Recibe un "súper-consejito" elaborado por una reconocida experta en lloreras, rechinar de dientes y funciones arrow (mentira).
 
-> ### Cada vez que descarguemos o clonemos un repo:
+## Qué herramientas se han utilizado en la elaboración de este confesionario
 
-- `npm install` para instalar los paquetes necesarios para convertir Sass a CSS, minizarlo, etc.
+Por supuesto ¡Javascript! Porque puede ser mi peor enemigo pero con: cariño, dedicación, buen humor, mucho Google, mucho Youtube, café, azúcar y estudio... también (espero) mi mejor aliado.
 
-> ### Cada vez que estemos trabajando con nuestro código:
+Además, no pueden faltar HTML, CSS, SASS, Git y Github, todo ello bajo el marco de trabajo Scrum. ¡Que no falte de nada!
 
-- Desde nuestra terminal, ejecutamos el comando `gulp` para que realice la tarea por defecto, que en el caso del `gulpfile.js` que tenemos en adalab-web-starter-kit estará pendiente de nuestros archivos Sass, html y JavaScript y los compilará, minificará y/o recargará el servidor cada vez que hagamos un cambio
+## De dónde viene la idea
 
-## Tareas de gulp incluidas
+De los 19 días (que saben a las 500 noches) en los que no he parado de llorar sin entender nada sobre funciones, eventos, objetos, arrays, índices y for's.
 
-### Inicio de un web server para desarrollo
+También de todos esos momentos en los que me he querido meter debajo de una piedra y no salir nunca mientras todo el mundo me decía "no te preocupes, harás click mágicamente" y ¡NO PASABA!
 
-```
-npm start
-```
+Y obviamente, por el gusto de aprender a programar con un proyecto personal lleno de libertad y mala baba, sin censura, ni tiempos de entrega, ni enunciados raros de ejercicios imposibles.
 
-o lo que en este proyecto es lo mismo:
+## Compartir es vivir
 
-```
-gulp
-```
+Si te gusta el proyecto y quieres contribuir, tus issues y pull requests son más que bienvenidas.
 
-Lanza un webserver con BrowserSync y varios watchers estarán pendientes de los archivos SCSS/JS/HTML, en la carpeta **public/**, para recargar el navegador cuando se necesite.
-
-### Versión lista para subir a producción
-
-Para generar los ficheros para producción ejecuta:
-
-```
-npm run docs
-```
-
-o lo que en este proyecto es lo mismo:
-
-```
-gulp docs
-```
-
-En la carpeta **docs/** se generarán los CSS y JS minimizados y sin sourcemaps listos para subir al repo. A continuación súbelos al repo y activa en GitHub Pages la opción **master/docs/**, para que GitHub Pages sirva la página desde la carpeta **docs/**.
-
----
-
-Si quieres generar los ficheros listos para producción y además subirlos a GitHub directamente ejecuta el siguiente comando:
-
-```
-npm run push-docs
-```
-
-Este comando borra la carpeta **docs/**, la vuelve a generar, crea un commit con los nuevos ficheros y hace un `git push`, todo del tirón. ¿Cómo se te queda el cuerpo?. Si quieres saber cómo funciona échale un ojo al fichero `package.json`.
-
-## Flujo de archivos con gulp
-
-Estas tareas de gulp producen el siguiente flujo de archivos:
-
-![Gulp flow](./gulp-flow.png)
-
-## Estructura del proyecto
-
-Nuestro **gulpfile.js** usa un JSON de configuración con las rutas de los archivos a generar/vigilar.
-
-La estructura de carpetas tiene esta pinta:
-
-```
-/
-`- _src
-   |- api
-   |  |- data.json // para crearnos un servidor de datos local
-   |- assets
-   |  |- icons
-   |  |- images
-   |  |- js
-   |  `- scss
-   |     `- core
-   |
-   `- templates
-      `- partials
-
-```
-
-## HTML
-
-Viene incluído el paquete [**gulp-html-partial**](https://www.npmjs.com/package/gulp-html-partial) que nos va a permitir tener un sistema de plantillas html
-
-## Imágenes e iconos
-
-Tenemos en **\_src/** una carpeta para las imágenes del proyecto y una para los iconos como el favicon o los iconos de dispositivos móviles. Estos últimos se generan en la raíz de las carpetas **public/** y **docs/**
-
-## CSS
-
-Viene incluído el paquete [**gulp-combine-mq**](https://www.npmjs.com/package/gulp-combine-mq) que agrupa todas las mediaqueries al final del documento css.
-
-## JS
-
-Podemos usar parciales de JS: en el JSON de configuración, **config.json** especificamos los archivos JS que utilizamos y en el orden que deben procesarse.
-
-## ¿Cómo actualizo si tengo una versión anterior?
-
-En principio puedes descargar todos los archivos fuera de **\_src/** y sustituir los de tu proyecto. Además deberías replicar la estructura de carpetas dentro de **\_src/**.
-
-## Falta algo?
-
-Echas de menos que el kit haga algo en concreto? Pidelo sin problema a través de los Issues o si te animas a mejorarlo mándanos un PR :)
+Ahora solo queda ¡aprender a programarlo!
