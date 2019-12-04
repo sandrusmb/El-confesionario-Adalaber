@@ -16,12 +16,33 @@ body {
   background-image: url(../images/jacalyn-beales-CA9V2xrz6J0-unsplash.jpg);
   //background-position-y: 45%;
   //background: #fabada;
+  background-position-y: 30%;
+
+  @media all and (min-width: 768px) {
+    background-position-y: 50%;
+  }
+
+  @media all and (min-width: 1024px) {
+    background-position-y: 60%;
+  }
 
   &__title {
     font-family: "Dosis", sans-serif;
-    font-size: 18px;
-    margin: 30px 30px 30px 30px;
+    font-size: 20px;
+    margin: 30px 50px 30px 50px;
     color: white;
+
+    @media all and (min-width: 768px) {
+      width: 60%;
+      font-size: 24px;
+      text-align: center;
+      margin: 30px 55px 30px 55px;
+    }
+
+    @media all and (min-width: 1024px) {
+      font-size: 28px;
+      margin-bottom: 60px;
+    }
   }
 
   &__form {
@@ -37,31 +58,54 @@ body {
       font-size: 2em;
       width: 250px;
       margin-bottom: 30px;
+
+      @media all and (min-width: 768px) {
+        width: 450px;
+        margin-bottom: 50px;
+      }
     }
 
     &__button {
       font-family: "Dosis", sans-serif;
-      font-size: 1em;
+      font-size: 1.2em;
       font-weight: bold;
-      background: greenyellow;
+      background: #33d8c4;
       border-radius: 10px;
-      color: coral;
+      color: white;
       width: 150px;
       height: 50px;
+      margin-bottom: 30px;
       //background-image: linear-gradient(to bottom, #eb94d0, #2079b0);
       box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2),
         0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      @media all and (min-width: 768px) {
+        font-size: 1.5em;
+        margin-bottom: 40px;
+        width: 20%;
+      }
     }
   }
 
   &__section {
-    border: 1px solid yellow;
+    //border: 1px solid yellow;
+    display: flex;
+    justify-content: center;
     &__text {
       font-family: "Montserrat Subrayada", sans-serif;
       margin: 0px;
       font-size: 1.5em;
-      margin: 30px;
-      color: greenyellow;
+      margin: 30px 50px;
+      color: #33d8c4;
+      background: white;
+      padding-right: 10px;
+
+      @media all and (min-width: 768px) {
+        width: 60%;
+        font-size: 2em;
+        text-align: center;
+        color: #33d8c4;
+        background: white;
+      }
     }
   }
 }
