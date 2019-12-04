@@ -9,7 +9,7 @@ const data = [
   "Tranqui, tú haz push, pop, slice, splice, length, fetch o handler. No tiene pérdida.",
   "No sé a lo que te refieres pero una cosa te voy a decir, no se dice /haiden/ se dice /hidn/. De nada.",
   "¡Error fatal! ¿Quieres ser una #adalaber o una #adalerder? Practica, practica, practica.",
-  "Llorar el normal, cagarte en la madre del console y el debugger no tanto.",
+  "Llorar es normal, cagarte en la madre del console y el debugger no tanto.",
   "¿Cuánto sabías hace un mes? Pues eso."
 ];
 
