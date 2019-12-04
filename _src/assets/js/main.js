@@ -7,7 +7,7 @@ const data = [
   "Una buena invocación a tus funciones y a la diosa de las frontends desesperadas y ¡todo arreglado!",
   "Harás click cuando tengas que hacerlo, ni ++ ni +-",
   "Tranqui, tú haz push, pop, slice, splice, length, fetch o handler. No tiene pérdida.",
-  "No sé a lo que te refieres pero una cosa te voy a decir, se dice /hidn/ y no /haiden/. De nada.",
+  "No sé a lo que te refieres pero una cosa te voy a decir, se dice /hiden/ y no /haiden/. De nada.",
   "¡Error fatal! ¿Quieres ser una #adalaber o una #adalerder? Practica, practica, practica.",
   "Llorar es normal, cagarte en la madre del console y el debugger no tanto.",
   "¿Cuánto sabías hace un mes? Pues eso."
